@@ -30,11 +30,15 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
 
 .jumbotron p {
      color: #6e6e6e;
+}
+
+.jumbotron p.active {
+     color: #1f6ddd;
 }
 
 .project a {
